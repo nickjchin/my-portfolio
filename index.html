@@ -16,10 +16,10 @@
     <head>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </head>
@@ -31,14 +31,95 @@
         </section>
 
         <!-- About Me -->
-        <section>
+        <section id="#aboutme">
             <h2>About Me</h2>
-            <p>I am a 2017 Rutgers University Graduate who majored in Information Technology &amp; Informatics and
+            <p>I am a 2017 Rutgers University graduate who majored in Information Technology &amp; Informatics and
                 minored in Mathematics. While at Rutgers, I came to realize that I'm a creative and enjoyed problem
                 solving through my Information Visualization, Web Design, and Math courses. I love the feeling when
                 you put so much time and effort into a project and when you're done you say, "All the time and effort
-                problem solving and creating the project was worth it"</p>
+                problem solving and creating the project was worth it".</p>
+
+            <p>Since graduation, I've worked retail at Target, interned as a Data Analyst at the Federal Bank of New
+                York, and did a little Freelance Web Development. </p>
         </section>
+
+        <!-- Work -->
+        <section id="#work">
+            <h2>Work</h2>
+
+            <!--Job Cards-->
+            <!-- Target -->
+            <div class="card">
+                <header>
+                    <h3>Target</h3>
+                    <h4>Edison, NJ</h4>
+                </header>
+                <img src="https://placekitten.com/200/300" alt="Target">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt velit repudiandae mollitia
+                    voluptatem. Eius impedit nam itaque aliquid aspernatur, perferendis fuga illo temporibus sed. Iste
+                    labore numquam fugiat porro rerum.</p>
+            </div>
+
+            <!-- Federal Reserve Bank -->
+            <div class="card">
+                <header>
+                    <h3>Federal Reserve Bank of New York</h3>
+                    <h4>New York, New York</h4>
+                </header>
+                <img src="https://placekitten.com/200/300" alt="Target">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt velit repudiandae mollitia
+                    voluptatem. Eius impedit nam itaque aliquid aspernatur, perferendis fuga illo temporibus sed. Iste
+                    labore numquam fugiat porro rerum.</p>
+            </div>
+
+
+            <div class="card">
+                <!-- Freelance Web Developer -->
+                <header>
+                    <h3>Freelance Web Developer</h3>
+                    <h4>www.naturalwellnessnj.com</h4>
+                    <h4>www.pmgeneralpainting.com</h4>
+                </header>
+                <img src="https://placekitten.com/200/300" alt="Target">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt velit repudiandae mollitia
+                    voluptatem. Eius impedit nam itaque aliquid aspernatur, perferendis fuga illo temporibus sed. Iste
+                    labore numquam fugiat porro rerum.</p>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contact">
+            <form>
+                <!-- Name -->
+                <p>
+                    <label for="name">Name:</label>
+                    <input class="text-input" type="text" id="name" placeholder="John Smith">
+                </p>
+                <!-- Email -->
+                <p>
+                    <label for="email">Email:</label>
+                    <input class="text-input" type="email" id="email" placeholder="johnsmith@email.com">
+                </p>
+                <p>
+                    <button>Submit</button>
+                </p>
+            </form>
+
+            <!-- Social Media -->
+            <aside>
+                <ul>
+                    <li><a href="">Linkedin</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Facebook</a></li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy;2021. Nicholas Chin. All rights</p>
+        </footer>
     </main>
 
 </body>
