@@ -1,0 +1,24 @@
+header{
+    width:100%;
+}
+nav{
+    background-color: #222222;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul{
+    text-align: right;
+}
+nav li{
+    display: inline;
+    line-height: 50px;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+nav li a:hover{
+    cursor: pointer;
+    color: #fff;
+}
