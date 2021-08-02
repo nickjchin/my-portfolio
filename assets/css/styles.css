@@ -1,6 +1,6 @@
-header{
+/* header{
     width:100%;
-}
+} */
 nav{
     background-color: #222222;
     height: 50px;
@@ -21,6 +21,7 @@ nav li a{
 nav li a:hover{
     cursor: pointer;
     color: #fff;
+    text-decoration: underline;
 }
 #jumbotron{
     height: 300px;  
@@ -29,3 +30,35 @@ nav li a:hover{
     padding: 10px 0 0 10px;
     font-size: 5em;
 }
+
+/* .flexbox{
+    padding: 0 20%;
+    display:flex;
+    width: 100%;
+    background-color: rgb(199, 137, 199);
+}
+.profile{
+    margin-left: 100px;
+    display:flex;
+    align-items: center;
+}
+
+article{
+    margin-left: 50%; 
+ }
+*/
+
+.card{
+    border: 2px solid black;
+    border-radius: 30px ;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 2px 2px 2px 3px #aaaaaa;
+} 
+.card img{
+    width: 80%;
+}
+
+
