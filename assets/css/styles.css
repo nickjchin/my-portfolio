@@ -31,24 +31,25 @@ nav li a:hover{
     font-size: 5em;
 }
 
-/* .flexbox{
-    padding: 0 20%;
+main{
+    background-color:rgb(199, 137, 199);
+}
+
+.flexbox{
     display:flex;
     width: 100%;
-    background-color: rgb(199, 137, 199);
-}
-.profile{
-    margin-left: 100px;
-    display:flex;
     align-items: center;
+    justify-content: center;
+    padding: 20px 0;
 }
+
 
 article{
-    margin-left: 50%; 
+    margin-left: 5%; 
+    width: 500px;
  }
-*/
 
-.card{
+/* .card{
     border: 2px solid black;
     border-radius: 30px ;
     width: 400px;
@@ -56,9 +57,9 @@ article{
     margin: 10px;
     padding: 0px;
     box-shadow: 2px 2px 2px 3px #aaaaaa;
-} 
-.card img{
+}  */
+/* .card img{
     width: 80%;
-}
+} */
 
 
