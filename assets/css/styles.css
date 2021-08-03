@@ -31,6 +31,11 @@ nav li a:hover{
     padding: 10px 0 0 10px;
     font-size: 5em;
 }
+@media only screen and (max-width: 749px){
+    #jumbotron h1{
+        font-size: 1em;
+    }
+}
 
 /* Content */
 /* About Me */
@@ -48,9 +53,9 @@ nav li a:hover{
 }
 .aboutme{
     margin-left: 5%; 
-    width: 500px;
-    background-color: purple;
- }
+    width: 50%;
+
+}
 /* Work */
 .work{
     background-color: rgb(216, 102, 119);
