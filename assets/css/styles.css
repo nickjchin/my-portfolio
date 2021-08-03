@@ -1,138 +1,138 @@
-h2{
-    font-size: 3em;
+h2 {
+  font-size: 3em;
 }
 /* Nav */
-nav{
-    background-color: #222222;
-    height: 50px;
-    font-family: 'Times New Roman', Times, serif;
+nav {
+  background-color: #222222;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
 }
-nav ul{
-    text-align: right;
+nav ul {
+  text-align: right;
 }
-nav li{
-    display: inline;
-    line-height: 50px;
-    padding: 10px;
+nav li {
+  display: inline;
+  line-height: 50px;
+  padding: 10px;
 }
-nav li a{
-    text-decoration: none;
-    color: #aaaaaa;
+nav li a {
+  text-decoration: none;
+  color: #aaaaaa;
 }
-nav li a:hover{
-    cursor: pointer;
-    color: #fff;
-    text-decoration: underline;
+nav li a:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
 }
 /* Jumbo */
-#jumbotron{
-    height: 300px;  
-    background-image: url("https://images.unsplash.com/photo-1578922427288-a47338083a57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=641&q=80");  
-    background-size: cover;
-    margin: 0;
-    padding: 10px 0 0 10px;
-    font-size: 5em;
+#jumbotron {
+  height: 300px;
+  background-image: url("https://images.unsplash.com/photo-1578922427288-a47338083a57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=641&q=80");
+  background-size: cover;
+  margin: 0;
+  padding: 10px 0 0 10px;
+  font-size: 5em;
 }
-@media only screen and (max-width: 749px){
-    #jumbotron h1{
-        font-size: 1em;
-    }
+@media only screen and (max-width: 749px) {
+  #jumbotron h1 {
+    font-size: 1em;
+  }
 }
 
 /* Content */
 /* About Me */
-.work h2{
-    text-align: center;
+.work h2 {
+  text-align: center;
 }
-.flexbox{
-    display:flex;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
+.flexbox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
 }
 
-.profile img{
-    width: 100%;
+.profile img {
+  width: 100%;
 }
-.aboutme{
-    margin-left: 5%; 
-    width: 50%;
-    border: 3px solid black;
-    padding: 5px;
+.aboutme {
+  margin-left: 5%;
+  width: 50%;
+  border: 3px solid black;
+  padding: 5px;
 }
 
 /* Work */
-.work{
-    padding: 20px 0px;
-    margin: 30px 0;
+.work {
+  padding: 20px 0px;
+  margin: 30px 0;
 }
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap; 
-    padding: 0 10%;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 10%;
 }
- .featured-img{
-    max-width: 100%;
- } 
-.item{
-   display: inline-block;
-   border: 5px solid black;
-   border-radius: 5px;
-   margin-top: 20px;
+.featured-img {
+  max-width: 100%;
 }
-.item:hover{
-    box-shadow: 10px 10px 2px 1px #222222;
+.item {
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
 }
-@media only screen and (max-width: 935px){
-    .item{
-        margin: 0 auto;
-    }
+.item:hover {
+  box-shadow: 10px 10px 2px 1px #222222;
 }
-.item img{
-    width: 100%;
+@media only screen and (max-width: 935px) {
+  .item {
+    margin: 0 auto;
+  }
 }
-.desc{ 
-    background-color: purple;
-    width: 100%;
-    padding-bottom: 5px;
+.item img {
+  width: 100%;
 }
-.desc p{
-    margin: 0;
-    font-size: 30px;
-    font-weight: bold;
-    padding-left: 25px;
+.desc {
+  background-color: purple;
+  width: 100%;
+  padding-bottom: 5px;
 }
-.desc a{
-    font-size: 20px;
-    text-decoration: none;
-    color: #aaaaaa;
-    padding-left: 25px;
+.desc p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 25px;
 }
-.desc a:hover{
-    color: #fff;
+.desc a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #aaaaaa;
+  padding-left: 25px;
+}
+.desc a:hover {
+  color: #fff;
 }
 /* Contact */
-footer{
-    padding: 10px 0;
-    background-color: #222222;
-    color: #fff;
-    text-align: center;
+footer {
+  padding: 10px 0;
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
 }
-.social{
-    height: 50px;
+.social {
+  height: 50px;
 }
-.social li{
-    display: inline;  
-    margin: 0 10px; 
+.social li {
+  display: inline;
+  margin: 0 10px;
 }
-.social li a{
-    text-decoration: none;
-    color: #aaaaaa;  
+.social li a {
+  text-decoration: none;
+  color: #aaaaaa;
 }
-.social li a:hover{
-    text-decoration: underline;
-    color: #fff;  
+.social li a:hover {
+  text-decoration: underline;
+  color: #fff;
 }
