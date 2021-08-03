@@ -80,7 +80,7 @@ nav li a:hover{
 .item img{
     width: 100%;
 }
-@media only screen and (max-width: 636px){
+@media only screen and (max-width: 935px){
     .item{
         margin: 0 auto;
     }
