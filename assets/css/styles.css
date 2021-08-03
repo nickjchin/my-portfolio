@@ -41,6 +41,9 @@ nav li a:hover{
 
 /* Content */
 /* About Me */
+.work h2{
+    text-align: center;
+}
 .flexbox{
     display:flex;
     width: 100%;
@@ -61,6 +64,10 @@ nav li a:hover{
 }
 
 /* Work */
+.work{
+    padding: 20px 0px;
+    margin: 30px 0;
+}
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -76,26 +83,56 @@ nav li a:hover{
    border-radius: 5px;
    margin-top: 20px;
 }
-
-.item img{
-    width: 100%;
+.item:hover{
+    box-shadow: 10px 10px 2px 1px #222222;
 }
 @media only screen and (max-width: 935px){
     .item{
         margin: 0 auto;
     }
 }
+.item img{
+    width: 100%;
+}
+.desc{ 
+    background-color: purple;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.desc p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.desc a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #aaaaaa;
+    padding-left: 25px;
+}
+.desc a:hover{
+    color: #fff;
+}
 /* Contact */
+footer{
+    padding: 10px 0;
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+}
 .social{
     height: 50px;
-}
-.social ul, footer{
-    text-align: center;
 }
 .social li{
     display: inline;  
     margin: 0 10px; 
 }
 .social li a{
-    text-decoration: none;  
+    text-decoration: none;
+    color: #aaaaaa;  
+}
+.social li a:hover{
+    text-decoration: underline;
+    color: #fff;  
 }
