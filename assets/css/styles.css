@@ -55,6 +55,7 @@ nav li a:hover {
 
 .profile img {
   width: 100%;
+  border-radius: 30px;
 }
 .aboutme {
   margin-left: 5%;
