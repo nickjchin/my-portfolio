@@ -1,4 +1,6 @@
-
+h2{
+    font-size: 3em;
+}
 /* Nav */
 nav{
     background-color: #222222;
@@ -57,31 +59,24 @@ nav li a:hover{
     border: 3px solid black;
     padding: 5px;
 }
+
 /* Work */
-.work{
-    background-color: rgb(216, 102, 119);
-}
 .container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; 
-    padding: 0px 10px;
+    padding: 0 10%;
 }
-/* .featured, .featured-img{
-    width: 100%;          
- }
- .featured{
-     width: 100%;
- }*/
  .featured-img{
     max-width: 100%;
  } 
 .item{
    display: inline-block;
+   border: 5px solid black;
+   border-radius: 5px;
+   margin-top: 20px;
 }
-.item p{
-    line-height: 10px;
-}
+
 .item img{
     width: 100%;
 }
