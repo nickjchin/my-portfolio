@@ -1,6 +1,4 @@
-/* header{
-    width:100%;
-} */
+/* Nav */
 nav{
     background-color: #222222;
     height: 50px;
@@ -23,6 +21,7 @@ nav li a:hover{
     color: #fff;
     text-decoration: underline;
 }
+/* Jumbo */
 #jumbotron{
     height: 300px;  
     background-color: #aaaaaa;  
@@ -31,35 +30,70 @@ nav li a:hover{
     font-size: 5em;
 }
 
-main{
-    background-color:rgb(199, 137, 199);
-}
-
+/* Content */
+/* About Me */
 .flexbox{
     display:flex;
     width: 100%;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    background-color: rgb(122, 122, 197)
 }
-
-
-article{
+.profile{
+    background-color: yellow;
+}
+.profile img{
+    width: 100%;
+}
+.aboutme{
     margin-left: 5%; 
     width: 500px;
+    background-color: purple;
  }
-
-/* .card{
-    border: 2px solid black;
-    border-radius: 30px ;
-    width: 400px;
+/* Work */
+.work{
+    background-color: rgb(216, 102, 119);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 0px 10px;
+}
+.featured, .featured-img{
+    width: 100%;          
+ }
+ .featured-img{
+    height: 300px;
+ }
+.item{
+   display: inline-block;
+}
+.item p{
+    line-height: 10px;
+}
+.item img{
+    width: 100%;
+}
+@media only screen and (max-width: 636px){
+    .item{
+        margin: 0 auto;
+    }
+}
+/* Contact */
+.social{
+    height: 50px;
+}
+.social ul{
     text-align: center;
-    margin: 10px;
-    padding: 0px;
-    box-shadow: 2px 2px 2px 3px #aaaaaa;
-}  */
-/* .card img{
-    width: 80%;
-} */
-
-
+}
+.social li{
+    display: inline;  
+    margin: 0 10px; 
+}
+.social li a{
+    text-decoration: none;
+    
+}
