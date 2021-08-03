@@ -1,3 +1,6 @@
+main{
+    background-color: rgb(58, 114, 236);
+}
 /* Nav */
 nav{
     background-color: #222222;
@@ -39,11 +42,8 @@ nav li a:hover{
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    background-color: rgb(122, 122, 197)
 }
-.profile{
-    background-color: yellow;
-}
+
 .profile img{
     width: 100%;
 }
