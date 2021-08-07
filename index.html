@@ -1,121 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nicholas Chin's Portfolio</title>
     <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
 
-<body>
-
-
+  <body>
     <!-- Navbar -->
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <!-- Hello World! -->
-        <section id="jumbotron">
-            <h1>Nicholas Chin</h1>
-        </section>
+      <!-- Hello World! -->
+      <section id="jumbotron">
+        <h1>Nicholas Chin</h1>
+      </section>
 
-        <!-- About Me -->
-        <section class="flexbox" id="aboutme">
-            <div class="profile">
-                <img src="./assets/images/profile-img.jpg" alt="Image of Nicholas Chin">
+      <!-- About Me -->
+      <section class="flexbox" id="aboutme">
+        <div class="profile">
+          <img
+            src="./assets/images/profile-img.jpg"
+            alt="Image of Nicholas Chin"
+          />
+        </div>
+
+        <article class="aboutme">
+          <h2>About Me</h2>
+          <p>
+            I am a 2017 Rutgers University graduate who majored in Information
+            Technology &amp; Informatics and minored in Mathematics. While at
+            Rutgers, I came to realize that I'm a creative and enjoyed problem
+            solving through my Information Visualization, Web Design, and Math
+            courses. I love the feeling when you put so much time and effort
+            into a project and when you're done you say, "All the time and
+            effort problem solving and creating the project was worth it".
+          </p>
+
+          <p>
+            Since graduation, I've worked retail at Target, interned as a Data
+            Analyst at the Federal Bank of New York, and create a couple
+            websites for small businesses.
+          </p>
+        </article>
+      </section>
+
+      <!-- Work -->
+      <!-- Add source code and screenshot -->
+      <section id="work" class="work">
+        <h2>Work</h2>
+        <div class="container">
+          <!--Work 1-->
+          <div class="featured item">
+            <a
+              href="https://nickjchin.github.io/code-refractor/"
+              target="_blank"
+              ><img
+                src="./assets/images/code-refactor.PNG"
+                class="featured-img"
+                alt="Featured Work"
+            /></a>
+            <div class="desc">
+              <p>Code Refactor</p>
+              <a
+                href="https://github.com/nickjchin/code-refractor"
+                target="_blank"
+                class="source-code"
+                >Source Code</a
+              >
             </div>
-
-            <article class="aboutme">
-                <h2>About Me</h2>
-                <p>I am a 2017 Rutgers University graduate who majored in Information Technology &amp; Informatics and
-                    minored in Mathematics. While at Rutgers, I came to realize that I'm a creative and enjoyed problem
-                    solving through my Information Visualization, Web Design, and Math courses. I love the feeling when
-                    you put so much time and effort into a project and when you're done you say, "All the time and
-                    effort
-                    problem solving and creating the project was worth it".</p>
-
-                <p>Since graduation, I've worked retail at Target, interned as a Data Analyst at the Federal Bank of New
-                    York, and create a couple websites for small businesses. </p>
-            </article>
-
-        </section>
-
-        <!-- Work -->
-        <!-- Add source code and screenshot -->
-        <section id="work" class="work">
-
-            <h2>Work</h2>
-            <div class="container">
-                <!--Work 1-->
-                <div class="featured item">
-                    <a href="https://nickjchin.github.io/code-refractor/" target="_blank"><img
-                            src="./assets/images/code-refactor.PNG" class="featured-img" alt="Featured Work"></a>
-                    <div class="desc">
-                        <p>Code Refactor</p>
-                        <a href="https://www.github.com/nickjchin/code-refactor" class="source-code">Source Code</a>
-                    </div>
-                </div>
-                <!--Work 2-->
-                <div class="item">
-                    <a href="#work1"><img src="https://placekitten.com/350/300" alt="Second Work"></a>
-                    <div class="desc">
-                        <p>Work 2</p>
-                        <a href="https://www.github.com/nickjchin/code-refactor" class="source-code">Source Code</a>
-                    </div>
-                </div>
-                <!--Work 3-->
-                <div class="item">
-                    <a href="#work2"><img src="https://placekitten.com/400/300" alt="Third Work"></a>
-                    <div class="desc">
-                        <p>Work 3</p>
-                        <a href="https://www.github.com/nickjchin/code-refactor" class="source-code">Source Code</a>
-                    </div>
-                </div>
-                <!--Work 4-->
-                <div class="item">
-                    <a href="#work3"><img src="https://placekitten.com/450/300" alt="Fourth Work"></a>
-                    <div class="desc">
-                        <p>Work 4</p>
-                        <a href="https://www.github.com/nickjchin/code-refactor" class="source-code">Source Code</a>
-                    </div>
-                </div>
-
+          </div>
+          <!--Work 2-->
+          <div class="item">
+            <a href="#work1"
+              ><img src="https://placekitten.com/350/300" alt="Second Work"
+            /></a>
+            <div class="desc">
+              <p>Work 2</p>
+              <a href="#" class="source-code">Source Code</a>
             </div>
+          </div>
+          <!--Work 3-->
+          <div class="item">
+            <a href="#work2"
+              ><img src="https://placekitten.com/400/300" alt="Third Work"
+            /></a>
+            <div class="desc">
+              <p>Work 3</p>
+              <a href="#" class="source-code">Source Code</a>
+            </div>
+          </div>
+          <!--Work 4-->
+          <div class="item">
+            <a href="#work3"
+              ><img src="https://placekitten.com/450/300" alt="Fourth Work"
+            /></a>
+            <div class="desc">
+              <p>Work 4</p>
+              <a href="#" class="source-code">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Contact Me Footer-->
+      <footer>
+        <section id="contact">
+          <!-- Social Media -->
+          <div class="social">
+            <ul>
+              <li><a href="https://www.linkedin.com">Linkedin</a></li>
+              <li><a href="https://www.twitter.com">Twitter</a></li>
+              <li><a href="https://www.instagram.com">Instagram</a></li>
+              <li><a href="https://www.facebook.com">Facebook</a></li>
+            </ul>
+          </div>
         </section>
 
-        <!-- Contact Me Footer-->
-        <footer>
-            <section id="contact">
-                <!-- Social Media -->
-                <div class="social">
-                    <ul>
-                        <li><a href="https://www.linkedin.com">Linkedin</a></li>
-                        <li><a href="https://www.twitter.com">Twitter</a></li>
-                        <li><a href="https://www.instagram.com">Instagram</a></li>
-                        <li><a href="https://www.facebook.com">Facebook</a></li>
-                    </ul>
-                </div>
-            </section>
-
-
-
-            <p>&copy;2021. Nicholas Chin. All rights reserved</p>
-        </footer>
+        <p>&copy;2021. Nicholas Chin. All rights reserved</p>
+      </footer>
     </main>
-
-</body>
-
+  </body>
 </html>
