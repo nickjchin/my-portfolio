@@ -1,3 +1,6 @@
 .social li a:hover {
   color: white;
 }
+.card:hover {
+  box-shadow: 10px 10px 5px rgba(221, 221, 221, 0.281);
+}
