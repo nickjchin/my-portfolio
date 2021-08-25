@@ -1,136 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nicholas Chin's Portfolio</title>
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
 
-  <body>
-    <!-- Navbar -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicholas Chin's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#aboutme">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
 
-    <main>
-      <!-- Hello World! -->
-      <section id="jumbotron">
-        <h1>Nicholas Chin</h1>
-      </section>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <!-- About Me -->
-      <section class="flexbox" id="aboutme">
-        <div class="profile">
-          <img
-            src="./assets/images/profile-img.jpg"
-            alt="Image of Nicholas Chin"
-          />
+  <main>
+    <!-- Hello World! -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4 text-center">Nicholas Chin</h1>
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="container">
+      <div class="row" id="aboutme">
+        <div class="col-4">
+          <div class="profile">
+            <img src="./assets/images/profile-img.jpg" class="img-fluid" alt="Image of Nicholas Chin" />
+          </div>
+        </div>
+        <div class="col-8">
+          <article>
+            <h2>About Me</h2>
+            <p>
+              I am a 2017 Rutgers University graduate who majored in Information
+              Technology &amp; Informatics and minored in Mathematics. While at
+              Rutgers, I came to realize that I'm a creative and enjoyed problem
+              solving through my Information Visualization, Web Design, and Math
+              courses. I love the feeling when you put so much time and effort
+              into a project and when you're done you say, "All the time and
+              effort problem solving and creating the project was worth it".
+            </p>
+
+            <p>
+              Since graduation, I've worked retail at Target, interned as a Data
+              Analyst at the Federal Bank of New York, and create a couple
+              websites for small businesses.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work -->
+    <!-- Add source code and screenshot -->
+    <section id="work" class="work">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 ">
+            <h2 class="bold">Work</h2>
+          </div>
         </div>
 
-        <article class="aboutme">
-          <h2>About Me</h2>
-          <p>
-            I am a 2017 Rutgers University graduate who majored in Information
-            Technology &amp; Informatics and minored in Mathematics. While at
-            Rutgers, I came to realize that I'm a creative and enjoyed problem
-            solving through my Information Visualization, Web Design, and Math
-            courses. I love the feeling when you put so much time and effort
-            into a project and when you're done you say, "All the time and
-            effort problem solving and creating the project was worth it".
-          </p>
-
-          <p>
-            Since graduation, I've worked retail at Target, interned as a Data
-            Analyst at the Federal Bank of New York, and create a couple
-            websites for small businesses.
-          </p>
-        </article>
-      </section>
-
-      <!-- Work -->
-      <!-- Add source code and screenshot -->
-      <section id="work" class="work">
-        <h2>Work</h2>
-        <div class="container">
-          <!--Work 1-->
-          <div class="featured item">
-            <a
-              href="https://nickjchin.github.io/code-refractor/"
-              target="_blank"
-              ><img
-                src="./assets/images/code-refactor.PNG"
-                class="featured-img"
-                alt="Featured Work"
-            /></a>
-            <div class="desc">
-              <p>Code Refactor</p>
-              <a
-                href="https://github.com/nickjchin/code-refractor"
-                target="_blank"
-                class="source-code"
-                >Source Code</a
-              >
+        <div class="row">
+          <div class="col-6">
+            <!--Work 1-->
+            <div class="card">
+              <a href="https://mrohmann.github.io/BaseballDirect/" target="_blank"><img src="./assets/images/baseball-direct-snippet.PNG" class="img-fluid" alt="Baseball Direct Snippet"></a>
+              <div class="card-body">
+                <h5 class="card-title">Baseball Direct</h5>
+                <p class="card-text">Group project using multiple APIs and Bulma</p>
+                <a href="https://github.com/mrohmann/BaseballDirect" target="_blank" class="btn btn-primary">Source Code</a>
+              </div>
             </div>
           </div>
+
           <!--Work 2-->
-          <div class="item">
-            <a href="#work1"
-              ><img src="https://placekitten.com/350/300" alt="Second Work"
-            /></a>
-            <div class="desc">
-              <p>Work 2</p>
-              <a href="#" class="source-code">Source Code</a>
-            </div>
-          </div>
-          <!--Work 3-->
-          <div class="item">
-            <a href="#work2"
-              ><img src="https://placekitten.com/400/300" alt="Third Work"
-            /></a>
-            <div class="desc">
-              <p>Work 3</p>
-              <a href="#" class="source-code">Source Code</a>
-            </div>
-          </div>
-          <!--Work 4-->
-          <div class="item">
-            <a href="#work3"
-              ><img src="https://placekitten.com/450/300" alt="Fourth Work"
-            /></a>
-            <div class="desc">
-              <p>Work 4</p>
-              <a href="#" class="source-code">Source Code</a>
+          <div class="col-6">
+            <div class="card">
+              <a href="https://nickjchin.github.io/work-day-scheduler" target="_blank"><img src="./assets/images/baseball-direct-snippet.PNG" class="img-fluid" alt="Work Day Scheduler"></a>
+              <div class="card-body">
+                <h5 class="card-title">Work Day Scheduler</h5>
+                <p class="card-text">Created using third party APIs like Moment.js, Twitter-Bootstrap, and Google Fonts</p>
+                <a href="https://github.com/nickjchin/work-day-scheduler" target="_blank" class="btn btn-primary">Source Code</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <!-- Contact Me Footer-->
-      <footer>
-        <section id="contact">
-          <!-- Social Media -->
-          <div class="social">
-            <ul>
-              <li><a href="https://www.linkedin.com">Linkedin</a></li>
-              <li><a href="https://www.twitter.com">Twitter</a></li>
-              <li><a href="https://www.instagram.com">Instagram</a></li>
-              <li><a href="https://www.facebook.com">Facebook</a></li>
-            </ul>
+        <div class="row mt-3">
+          <div class="col-6">
+            <!--Work 3-->
+            <div class="card">
+              <a href="https://nickjchin.github.io/weather-dashboard" target="_blank"><img src="./assets/images/baseball-direct-snippet.PNG" class="img-fluid" alt="weather dashboard"></a>
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">Created using server-side API from OpenWeather API to display the current weather and 5 day forecasts for selected cities</p>
+                <a href="https://github.com/nickjchin/weather-dashboard" target="_blank" class="btn btn-primary">Source Code</a>
+              </div>
+            </div>
           </div>
-        </section>
 
-        <p>&copy;2021. Nicholas Chin. All rights reserved</p>
-      </footer>
-    </main>
-  </body>
+          <!--Work 4-->
+          <div class="col-6">
+            <div class="card">
+              <a href="https://nickjchin.github.io/password-generator" target="_blank"><img src="./assets/images/password-generator.PNG" class="img-fluid" alt="password generator"></a>
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">Created using server-side API from OpenWeather API to display the current weather and 5 day forecasts for selected cities</p>
+                <a href="https://github.com/nickjchin/password-generator" target="_blank" class="btn btn-primary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Me Footer-->
+
+  <footer class="bg-dark text-light mt-4 pt-3" id="contact">
+    <!-- Social Media -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="text-center d-flex justify-content-around">
+            <li class="d-inline"><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+            <li class="d-inline"><a href="https://www.twitter.com"><i class="fab fa-twitter fa-lg"></i></a></li>
+            <li class="d-inline"><a href="https://www.instagram.com"><i class="fab fa-instagram fa-lg"></i></a></li>
+            <li class="d-inline"><a href="https://www.facebook.com"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12"></div>
+        <p class="mx-auto mt-3">&copy;2021. Nicholas Chin. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
